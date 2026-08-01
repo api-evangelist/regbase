@@ -1,7 +1,31 @@
 aid: regbase
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/regbase.png
 name: Regbase
-description: Regbase is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Regbase is an AI-native regulatory intelligence platform that helps legal teams,
+  compliance professionals, researchers, and government vendors monitor new and
+  proposed laws worldwide. The platform uses AI agents to identify regulatory
+  changes across 195 countries and 50 US states, surfacing draft bills, consultations,
+  compliance requirements, and opportunities like grants from hard-to-find government
+  sources, non-English publications, and informal channels that traditional tools miss.
+  Regbase then analyzes those changes automatically and alerts users to updates relevant
+  to their practice areas, spanning employment and labor, AI governance, healthcare,
+  privacy, climate and sustainability, government contracting, and other regulated
+  industries. Founded in 2026 and part of Y Combinator's Spring 2026 batch, Regbase is
+  based in San Francisco. This profile was surfaced as a Y Combinator portfolio company
+  and enriched by the API Evangelist network; at the time of enrichment Regbase publishes
+  a login-only web application and no public API, developer documentation, or SDK.
 url: https://raw.githubusercontent.com/api-evangelist/regbase/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +35,39 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Regulatory Intelligence
+- Compliance
+- RegTech
+- Legal Technology
+- GovTech
+- Regulatory Monitoring
+- Artificial Intelligence
 apis: []
+common:
+- type: DomainSecurity
+  url: security/regbase-domain-security.yml
+- type: Website
+  url: https://regbase.com
+- type: Login
+  url: https://app.regbase.com
+- type: PrivacyPolicy
+  url: https://regbase.com/privacy
+- type: Support
+  url: https://regbase.cal.com/natalie/30min
+- type: LinkedIn
+  url: https://www.linkedin.com/company/regbase
+- type: Twitter
+  url: https://x.com/theregbase
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
