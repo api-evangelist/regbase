@@ -1,0 +1,32 @@
+# Front Door AI Index — regbase — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: regbase
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: regbase.com
+  final_host: regbase.com
+  ownership: own
+  owner: regbase
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 23
+  host_score: 23
+  density: 15.68
+  words: 1467
+  tiers:
+    agentic: 4
+    core: 18
+    model: 1
+  ambiguous: 6
+  top_terms:
+    AI: 16
+    agent: 3
+    agentic: 3
+    intelligence: 3
+    AI agent: 1
+    ChatGPT: 1
+    LLMs: 1
+    artificial intelligence: 1
